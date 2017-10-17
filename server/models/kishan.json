@@ -1,0 +1,27 @@
+{
+  "name": "Kishan",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Kalburgi": {
+      "type": "string",
+      "required": true
+    },
+    "place": {
+      "type": "string",
+      "required": true,
+      "default": "Bengalore"
+    },
+    "DOB": {
+      "type": "string",
+      "default": "30-1995"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
